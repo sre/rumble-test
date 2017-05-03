@@ -1,0 +1,13 @@
+This is a small tool for testing force feedback devices
+similar to fftest(1). It's explicitly for testing of the
+rumble effect at different strength.
+
+Usage:
+
+./rumble-test /dev/input/eventX 0x0001
+
+Rumble at minimum strength
+
+./rumble-test /dev/input/eventX 0xffff
+
+Rumble at full strength
